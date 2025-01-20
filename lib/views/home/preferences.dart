@@ -19,7 +19,7 @@ class Preferences extends StatelessWidget {
       width: size.width,
       decoration: BoxDecoration(border: Border.all(color: Colors.grey.shade400),
         borderRadius: BorderRadius.circular(20),
-        color: const Color.fromARGB(255, 242, 242, 242),
+        color: ktilecolor
       ),
       margin: const EdgeInsets.symmetric(horizontal: 15),
       child: Column(
@@ -28,7 +28,7 @@ class Preferences extends StatelessWidget {
           ListTile(minTileHeight: 40,
             leading: Container(
               decoration: BoxDecoration(
-                color: Colors.white,
+                color: kwhitecolor,
                 borderRadius: BorderRadius.circular(10),
               ),
               child: Padding(
