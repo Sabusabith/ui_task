@@ -46,9 +46,9 @@ class Preferences extends StatelessWidget {
             ),
             trailing: Obx(
               () => Switch(
-                value: controller.isNotificationEnabled.value,
+                value: controller.isNotificationEnabled1.value,
                 onChanged: (bool newValue) {
-                  controller.toggleNotification(newValue);
+                  controller.toggleNotification1(newValue);
                 },
                 activeColor: Color(0xff277a46),
                 activeTrackColor:Color(0xff277a46) ,
@@ -90,9 +90,9 @@ inactiveTrackColor: Colors.grey.shade500,
             ),
            trailing: Obx(
               () => Switch(
-                value: controller.isNotificationEnabled.value,
+                value: controller.isNotificationEnabled2.value,
                 onChanged: (bool newValue) {
-                  controller.toggleNotification(newValue);
+                  controller.toggleNotification2(newValue);
                 },
                 activeColor: Color(0xff277a46),
                 activeTrackColor:Color(0xff277a46) ,
